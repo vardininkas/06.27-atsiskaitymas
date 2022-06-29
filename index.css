@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Roboto", sans-serif;
+  margin: 60px 0px 80px 60px;
+  text-align: left;
+}
+
+h5 {
+  color: #ff3998;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+h1 {
+  color: #111111;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.miss {
+  color: #777777;
+  font-size: 21px;
+}
+
+button {
+  background-color: #ffffff;
+  border: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, rgb(175, 34, 9), rgb(238, 125, 50), rgb(131, 83, 5));
+  border-radius: 50px;
+  color: #111111;
+  padding: 20px 60px;
+  margin: 20px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Logo {
+  max-width: 50%;
+}
+
+#Burgeris {
+  max-width: 20%;
+  margin-right: 30px;
+}
+
+.LaunchingSoon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LaunchingSoonArticle {
+  display: block;
+  margin-top: 60px;
+}
+
+#PinkThingImg {
+  height: 415px;
+  margin-right: -200px;
+  margin-left: -100px;
+}
+
+.FreeNft {
+  background-image: url(./background.svg);
+  background-repeat: no-repeat;
+  margin: 60px 0 0 -660px;
+  padding: 70px 40px 0px 20px;
+}
+.FreeNft h3 {
+  color: #111111;
+  font-size: 45px;
+  font-weight: 450;
+  padding: 0 0 0 640px;
+}
+.FreeNft p {
+  padding: 0 0 60px 640px;
+  margin: -30px 0 0 0;
+  font-size: 22px;
+  letter-spacing: 1, 5px;
+}
+
+.Companies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 0px 0 0;
+  row-gap: 20px;
+}
+.Companies #Droplet {
+  grid-column: 2;
+  grid-row: 2;
+}
+.Companies #Boom {
+  grid-column: 1;
+  grid-row: 1;
+}
+.Companies :nth-last-child(3) {
+  display: none;
+}
+.Companies :nth-child(1) {
+  display: none;
+}
+
+.LeSuper h3 {
+  color: #111111;
+  font-size: 42px;
+  font-weight: 420;
+  padding: 20px 0 0 0;
+  margin: 42px 0 0 0;
+}
+.LeSuper p {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 0px;
+  letter-spacing: 1.1px;
+}
+.LeSuper p a {
+  color: #555555;
+  font-weight: 500;
+}
+
+.NftList {
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 420px;
+  padding-bottom: 20px;
+}
+
+.NftListeriai {
+  display: flex;
+  height: 400px;
+  width: 290px;
+  border-radius: 30px;
+  background-color: #eeeeee;
+  margin: 20px;
+}
+.NftListeriai .ListoGridas {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+}
+.NftListeriai .ListoGridas :nth-child(odd) {
+  text-align: left;
+  padding-left: 25px;
+}
+.NftListeriai .ListoGridas :nth-child(even) {
+  text-align: right;
+  padding: 0 20px 0 0;
+}
+.NftListeriai .ListoGridas #Gloop {
+  color: #ee5610;
+  font-size: 12px;
+  margin: 15px 0px 5px 0px;
+}
+.NftListeriai .ListoGridas #Top {
+  font-size: 12px;
+  margin: 15px 0px 5px 0px;
+}
+.NftListeriai .ListoGridas h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px 0px 5px 0px;
+}
+.NftListeriai .ListoGridas p {
+  font-size: 18px;
+  margin: 5px 0px 5px 0px;
+}
+.NftListeriai .ListoGridas span {
+  display: flex;
+  justify-content: end;
+  margin: 5px -20px 5px 0px;
+}
+.NftListeriai #Eth {
+  width: 13px;
+  margin: 5px 10px 5px 0px;
+}
+
+.AnNft {
+  border-top: 2px solid #cccccc;
+  padding: 35px 0 0 0;
+  display: flex;
+  align-items: flex-end;
+}
+.AnNft .AnNftArticle {
+  padding-bottom: 50px;
+}
+
+#AnNftImg {
+  align-self: flex-end;
+}
+
+.Links {
+  border-top: 2px solid #cccccc;
+  margin-top: -5px;
+  padding-top: 70px;
+}
+
+.LinksList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 180px;
+  color: #555555;
+}
+
+i {
+  color: #999999;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+
+.LinksListBold {
+  color: #555555;
+  font-weight: 600;
+  padding: 20px 0;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.LinksListPad div {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.LinksListRegular {
+  font-size: 20px;
+}
+
+footer {
+  color: #999999;
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+
+.August2022 {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
